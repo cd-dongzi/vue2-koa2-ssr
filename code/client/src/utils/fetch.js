@@ -21,7 +21,6 @@ axios.interceptors.response.use(response => response, err => Promise.resolve(err
 //         msg: res.data.msg || res.statusText,
 //         data: res.statusText
 //     }
-//     return res
 // }
 
 // function checkCode(res) {
